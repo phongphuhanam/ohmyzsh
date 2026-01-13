@@ -46,6 +46,8 @@ alias pygrep='grep -nr --include="*.py"'
 # Share local directory as a HTTP server
 alias pyserver="python3 -m http.server"
 
+# Quickly lauch debugpy
+alias pydebugpy="python3 -m debugpy --listen 5678 --wait-for-client"
 
 ## venv settings
 : ${PYTHON_VENV_NAME:=venv}
