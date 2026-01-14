@@ -35,6 +35,7 @@ alias dvls='docker volume ls'
 alias dvprune='docker volume prune'
 alias dxc='docker container exec'
 alias dxcit='docker container exec -it'
+alias dxcitw='docker container exec -i -t -w $(pwd)'
 
 if (( ! $+commands[docker] )); then
   return
